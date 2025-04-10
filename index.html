@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="bg-green-300 p-3 flex items-center justify-between shadow-2xl sticky top-0 z-10">
+        <h1 class="text-3xl font-extrabold font-mono">GREENDEN</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="size-6 w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <div class="flex gap-5 hidden md:flex">
+            <a href="index.html" class="font-medium text-gray-600 hover:text-black hover:underline">Home</a>
+            <a href="product.html" class="font-medium text-gray-600  hover:text-black hover:underline">Products</a>
+            <a href="contact.html" class="font-medium text-gray-600  hover:text-black hover:underline">Contact</a>
+        </div>
+    </nav>
+
+<!-- Header -->
+    <header class="bg-green-300 p-5 flex justify-center md:p-10">
+        <div>
+            <p class="mb-4 mt-4">We offer you variety of plant species for your home interior</p>
+            <h2 class="font-bold text-3xl mb-5 md:text-5xl">Plants for your Interior</h2>
+            <div class="mb-5">
+                <button class="bg-black text-white p-2 rounded">Shop Now</button>
+                <button class="border border-black p-2 border-8">Watch Video</button>
+            </div>
+            <p>160+ plant species | 100+ clients</p>
+        </div>
+        <div class="hidden md:block m-8">
+            <img src="./Images/header-image.avif" alt="Header Image" class="w-72 h-52">
+        </div>
+    </header>
+
+    <!--About us  -->
+    <section class="mt-10 text-center">
+        <h1 class="font-bold text-3xl">About Us</h1>
+        <p>This site is for those who admire the beauty and harmony of nature</p>
+        <div class="mt-1 p-6 md:flex">
+            <div class="border border-black p-2 m-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10" />
+                  </svg>
+                  
+                <h2 class="font-medium text-xl">Large Assortment</h2>
+                <p>Discover the perfect green companion for every corner of your space with our extensive collection of interior plants. From low-maintenance succulents and air-purifying foliage to rare tropical beauties, our curated assortment caters to every style, size, and skill level. Whether you're designing a cozy nook, brightening up an office, or making a bold botanical statement.</p>
+            </div>
+            <div class="border border-black p-2 m-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 inline-block">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 0 0-3.7-3.7 48.678 48.678 0 0 0-7.324 0 4.006 4.006 0 0 0-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 0 0 3.7 3.7 48.656 48.656 0 0 0 7.324 0 4.006 4.006 0 0 0 3.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3-3 3" />
+                  </svg>
+                  
+                <h2 class="font-medium text-xl">Free and Fast Shipping</h2>
+                <p>Bringing nature to your doorstep—quickly and at no extra cost. Enjoy free and fast shipping on all your plant orders, so you can start greening up your space without the wait. We carefully package every plant to ensure it arrives fresh, healthy, and ready to thrive. No hidden fees, no long delays—just a smooth and speedy delivery experience, every time.</p>
+            </div>
+            <div class="border border-black p-2 m-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0 6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z" />
+                  </svg>
+                  
+                <h2 class="font-medium text-xl">Customer Support</h2>
+                <p>We’re here for you—every step of your plant journey. Whether you need help choosing the right plant, tips on care, or support with your order, our friendly customer service team is just a message away. Fast, reliable, and plant-savvy, we’re committed to making your experience smooth and stress-free. Because happy plants start with happy customers.</p>
+            </div>
+        </div>
+    </section>
+ 
+    <!-- Best seller -->
+    <div class="text-center">
+        <h1 class="font-bold text-3xl">Best Seller</h1>
+        <div class="mt-5 grid grid-cols-2 md:grid-cols-4 gap-5">
+            <div>
+                <img src="./Images/color rose.jpg" alt="" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <p>Color Rose $30</p>
+            </div>
+            <div>
+                <img src="./Images/Interior plant.jpg" alt="" class="inline  hover:shadow-xl transform hover:-translate-y-2">
+                <p>Plant $15</p>
+            </div>
+            <div>
+                <img src="./Images/Lily.jpg" alt="" class="inline  hover:shadow-xl transform hover:-translate-y-2">
+                <p>Lily $25</p>
+            </div>
+            <div>
+                <img src="./Images/Rose.jpg" alt="" class="inline  hover:shadow-xl transform hover:-translate-y-2">
+                <p>Rose $20</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Customer review  -->
+    <section>
+        <h1 class="font-extrabold text-3xl text-center mt-5">Customer Reviews</h1>
+        <div class="flex flex-col gap-5 text-white justify-center m-5">
+          <div class="bg-green-900 container p-5">
+            <p>⭐️⭐️⭐️⭐️
+                "Great variety and quality!"
+                Loved the selection of indoor plants, especially the low-maintenance ones. I got a snake plant and a peace lily for my office desk — they’re thriving! The delivery was fast, and the pots are beautiful too. Will definitely order again.</p>
+                <p class="font-bold text-yellow-400">— Rahul M., Chennai</p>
+          </div>
+          <div  class="bg-green-900 container p-5">
+            <p>⭐️⭐️⭐️⭐️⭐️
+                "Absolutely transformed my living space!"
+                I ordered a set of indoor plants from this website, and they arrived in perfect condition! The packaging was eco-friendly, and the care instructions were super helpful for a beginner like me. My home feels fresher and more vibrant now. Highly recommend for anyone wanting to add some greenery to their space!</p>
+                <p  class="font-bold text-yellow-400">— Anjali R., Bangalore</p>
+          </div>
+          <div  class="bg-green-900 container p-5">
+            <p>⭐️⭐️⭐️⭐️⭐️
+                "Perfect gift idea!"
+                Bought a mini plant combo as a birthday gift for my sister, and she LOVED it. The site made it super easy to choose and personalize. The handwritten note option was a lovely touch. Such a thoughtful and green gift idea!</p>
+                <p  class="font-bold text-yellow-400">— Sneha K., Hyderabad</p>
+          </div>
+        </div>
+    </section>
+
+<!-- News Letter -->
+    <section class="text-center">
+        <h1 class="text-3xl font-bold">Join Our News Letter</h1>
+        <p>Signup for our email newspaper to get exclusive discounts, updates, and more </p>
+        <input type="text" class="border border-black p-3 m-3" style="width:80%">
+        <br>
+        <button class="bg-black text-white p-3 underline ">Subscribe</button>
+    </section>
+
+<!-- Footer -->
+    <section class="bg-green-100 flex flex-col gap-5 mt-5 p-2">
+        <h1 class="text-3xl font-bold">Greenden</h1>
+        <p>The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest</p>
+        <p>@5:38/7:21eenday.com</p>
+    </section>
+</body>
+
+</html>
