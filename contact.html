@@ -5,11 +5,12 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
+<body>
 <!-- Navbar -->
 <nav class="bg-green-300 p-3 flex items-center justify-between shadow-2xl sticky top-0 z-10">
     <h1 class="text-3xl font-extrabold font-mono">GREENDEN</h1>
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-        class="size-6 w-6 h-6 md:hidden">
+    <svg id="menubar" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="size-6 w-6 h-6 cursor-pointer md:hidden">
         <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
     </svg>
 
@@ -19,6 +20,16 @@
         <a href="contact.html" class="font-medium text-gray-600  hover:text-black hover:underline">Contact</a>
     </div>
 </nav>
+
+  <!-- Sidenav -->
+  <section id="Sidenav" class=" bg-green-300 fixed w-20 pt-3 z-20 top-0  h-100 transition-all duration-1000" style="height:100hv;right:-50%">
+    <span><p id="cross" class="text-right  cursor-pointer pr-2" >X</p></span>    
+    <div class="flex flex-col gap-10 p-3 ">
+        <a href="index.html" class="font-medium text-gray-600 hover:text-black hover:underline">Home</a>
+        <a href="product.html" class="font-medium text-gray-600  hover:text-black hover:underline">Products</a>
+        <a href="contact.html" class="font-medium text-gray-600  hover:text-black hover:underline">Contact</a>    
+    </div>
+    </section>
 
 <!-- Contact -->
 <section class="bg-white dark:bg-gray-900">
@@ -49,3 +60,5 @@
     <p>The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest</p>
     <p>@5:38/7:21eenday.com</p>
 </section>
+<script src="index.js"></script>
+</body>
